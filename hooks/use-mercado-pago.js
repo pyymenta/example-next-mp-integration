@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 import getConfig from 'next/config';
 
-const SDK_URL = 'https://sdk.mercadopago.com/js/v2';
+// const SDK_URL = 'https://sdk.mercadopago.com/js/v2';
+const SDK_URL = '/js/v2/index.js';
+
 
 const { publicRuntimeConfig } = getConfig();
 
